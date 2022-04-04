@@ -1,8 +1,4 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
@@ -15,16 +11,27 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+body {
+    background-color: rgb(240,250,250);
+  }
+  
+  .menu {
+    background-color: #120f14;
+    color: white;
+    height: 100vh;
+  }
+  
+  .formulario {
+    background-color: white;
+    padding: 2.5rem;
+    margin-top: 4rem;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .login {
+    border: 1px solid #000;
+  }
 </style>
